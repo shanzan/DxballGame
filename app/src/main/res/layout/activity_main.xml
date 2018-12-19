@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="game.dxball.shonzon.dxballgame.MainActivity">
+
+    <Button
+        android:text="START GAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginTop="226dp"
+        android:elevation="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="EXIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="60dp"
+        android:id="@+id/button2"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="DX BALL"
+        android:textSize="70dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:freezesText="true"
+        android:textColor="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
